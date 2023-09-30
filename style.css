@@ -3,5 +3,38 @@ h1 {
 }
 
 body {
-  background: url("hexenhaus-591x473.webp");
+  background-image: url("mainImage.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+div{
+  position: absolute;
+  top: 500px;
+  left: 450px;
+  font-size: 400%;
+}
+.besen {
+  top: 200px;
+  left: 150px;
+  font-size: 550%;
+  /*transform: rotate(-30deg);*/
+}
+.katze {
+  top: 60px;
+  left:60px;
+}
+.herz {
+  position: absolute;
+  font-size: 300%;
+  top: 200px;
+  left: 70px;
+  display: none;
+}
+.zähler{
+  position: absolute;
+  left: 20px;
+  top: -200px;
+  font-size: 50px;
+  font-family: sans-serif;
+  
 }
